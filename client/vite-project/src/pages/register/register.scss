@@ -1,0 +1,65 @@
+
+.register{
+    width: 100%;
+    background-color: rgb(248,248,252);
+}
+.register-m {
+    padding: 0 25%;
+}
+.from {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    background: white;
+    border-radius: 5px;
+    font-size: 18px;
+    button{
+        width: 100px;
+        height: 30px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(0,101,69);
+        color: white;
+        margin-bottom: 6px;
+    }
+    button :hover{
+        background-color: rgb(3, 50, 38);
+    }
+   
+}
+.check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    // background-color: aqua;
+    background: white;
+    p{
+        font-size: 18px;
+        // background: red;
+    }
+    .p1{
+        background-color: rgb(255,246,236);
+        padding: 10px;
+        border: 2px;
+        color: rgb(232, 198, 137);
+    }
+
+    // margin-left: -22px;
+    div{
+        display: flex;
+        input{
+            width: 40px;
+            margin-bottom: 50px;
+            padding: 20px;
+        }
+        strong{
+            color: blue
+        }
+    }
+    
+}

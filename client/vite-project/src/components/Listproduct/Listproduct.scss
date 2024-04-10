@@ -1,0 +1,110 @@
+.img_sale_1 {
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    // top: 0;
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+    
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    animation: sale 2s infinite;
+    z-index: 222;
+    p{
+        font-size: 10px;
+    }
+}
+
+.products{
+    background-color: white;
+   border-radius: 8px;
+   height: 100%;
+   .cate-products{
+       display: flex;
+       padding: 10px;
+       gap: 10px;
+       justify-content: space-evenly;
+       border-bottom: 1px solid rgb(212, 195, 195);
+       .cate{
+        width: 140px;
+        height: 140px;
+        background-color: white;
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+       
+       }
+       img{
+           width: 100px;
+           
+       }
+      
+       
+   }
+   .render-products{
+    margin-top: 10px;
+       display: flex;
+       flex-wrap: wrap;
+       gap: 12.6px;
+    //    padding: 15px;
+    .hover-image:hover {
+    
+        overflow: hidden;
+        box-sizing: border-box;
+        transition: 0.5s ease-in-out;
+        transform: scale(1.02);
+        }
+
+   }
+}
+
+.products1{
+    background-color: white;
+   border-radius: 8px;
+   height: 100%;
+   .cate-products1{
+       
+       padding: 10px;
+       gap: 10px;
+       justify-content: space-evenly;
+       border-bottom: 1px solid rgb(212, 195, 195);
+       .cate{
+        width: 140px;
+        height: 140px;
+        background-color: white;
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+       
+       }
+       img{
+           width: 100px;
+           
+       }
+      
+       
+   }
+   .render-products1{
+    margin-top: 10px;
+       display: flex;
+       flex-wrap: wrap;
+       gap: 12.6px;
+    //    padding: 15px;
+    .hover-image:hover {
+    
+        overflow: hidden;
+        box-sizing: border-box;
+        transition: 0.5s ease-in-out;
+        transform: scale(1.02);
+        }
+
+   }
+}

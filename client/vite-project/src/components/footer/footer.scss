@@ -1,0 +1,30 @@
+footer{
+    margin-top: 40px;
+ }
+ 
+ .footer_1{
+    padding-left: 180px;
+    // margin-bottom: 20px;
+    margin-top: 10px;
+    border: 1px solid rgb(0,101,69);
+    height: 180px;
+    li{
+       list-style-type: none; 
+       line-height: 30px;
+       font-size: 12px;
+      }
+     
+ }
+ .footer_2{
+    background-color: rgb(233,237,242);
+    height: 180px;
+    line-height: 30px;
+    // margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    li{
+       list-style-type: none;
+    }
+    
+ }
